@@ -6,12 +6,10 @@ public class Program25 {
        int sum=0;
        int place=1;
         while(n>0){
-          
             int r=n%10;
             if(place%2==0){
                 sum+=r;
             }
-           
             n=n/10;
             place++;
         }
