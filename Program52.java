@@ -11,7 +11,7 @@ public class Program52 {
                         ABCDE
                                 */
               Scanner sc=new Scanner(System.in);
-              System.out.println("Enter the Number of rows:");
+              System.out.println("Enter the   Number of rows:");
               int n=sc.nextInt();
               
               sc.close();

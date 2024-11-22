@@ -13,6 +13,7 @@ public class Program48 {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Number of rows:");
         int n=sc.nextInt();
+        
         sc.close();
 int o=1;
         for(int i=1; i<=n; i++){

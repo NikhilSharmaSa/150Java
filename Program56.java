@@ -16,6 +16,8 @@ public class Program56 {
               int n=sc.nextInt();
             
               sc.close();
+
+              
               for(int i=1; i<=n;i++){
                 char ch='E';
                 for(int j=1; j<=n; j++){
