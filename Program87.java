@@ -21,7 +21,6 @@ public class Program87 {
                 
                 System.out.print(j);
             }
-            
             System.out.println();
         }
     }

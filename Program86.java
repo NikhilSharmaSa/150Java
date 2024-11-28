@@ -14,7 +14,6 @@ public class Program86 {
         System.out.println("Enter the Number of rows:");
         int n=sc.nextInt();
         sc.close();
-
         for(int i=1; i<=n; i++){
             for(int k=1; k<=n-i; k++){
                 System.out.print(" ");
