@@ -1,6 +1,6 @@
 
 public class Program140 {
-    public static void findThree(int[] arr){
+    public static void findDeifference(int[] arr){
         int largest=Integer.MIN_VALUE;
         int smallest=Integer.MAX_VALUE;
         
@@ -19,9 +19,9 @@ System.out.println("The difference b/w Largest and Smallest elements is:"+(large
 }
     
     public static void main(String[] args) {
-          //WAP to find three largest number
+          //WAP to find the difference b/w largest and smallest elements in the array
                      int[] arr={12,2,88,4,5,4,5,6,4,5,44,1,5,8}; 
-         findThree(arr);
+         findDeifference(arr);
          for (int i : arr) {
             System.out.print(i+" ");
          }
