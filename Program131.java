@@ -29,7 +29,8 @@ System.out.println(thirdLargest);
           //WAP to find three largest number
                      int[] arr={-12,2,88,4,5,4,5,6,4,5,44,1,5,8}; 
          findThree(arr);
-         for (int i : arr) {
+         for (int i : arr) {  
+            
             System.out.print(i+" ");
          }
 
