@@ -1,7 +1,7 @@
 
 public class Program132 {
     public static int[] deleteElement(int[] arr,int key){
-       int index=0;
+       int index=-1;
         int arr2[]= new int[arr.length-1];
 for(int i=0; i<arr.length; i++){
 if(arr[i]==key){
@@ -9,6 +9,9 @@ if(arr[i]==key){
 }
   }
 
+  if(index==-1){
+    return arr;
+  }
 for(int i=0; i<index; i++){
     arr2[i]=arr[i];
 }
